@@ -1,3 +1,4 @@
 hi just check branching.
 this is correct i understand the.
 
+this is in main branch. now i go to another branch and check it

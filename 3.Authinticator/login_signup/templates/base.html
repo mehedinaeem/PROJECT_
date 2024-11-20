@@ -25,12 +25,12 @@
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar bg-secondary">
         <div class="container-fluid">
-            <a class="navbar-brand">Authentication</a>
+            <a class="navbar-brand text-white">Authentication</a>
             <form action="{% url 'logout' %}" method="post" style="display:inline;">
                 {% csrf_token %}
-                <button type="submit" class="btn btn-outline-success">Logout</button>
+                <button type="submit" class="btn btn-outline-danger bg-white">Logout</button>
             </form>
         </div>
     </nav>

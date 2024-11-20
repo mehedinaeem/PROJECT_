@@ -1,5 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'registration/style1.css' %}">
+{% endblock %}
 
 {% block content %}
-<h1>App homepage</h1>
+<h1 class="txt">Welcome</h1>
 {% endblock %}

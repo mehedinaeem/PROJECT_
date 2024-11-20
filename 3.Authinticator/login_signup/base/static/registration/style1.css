@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    transition: 0.3s all ease-in-out;
+    
+}
+
+body {
+    background-color: #98ab51;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    font-size: 200px;
+}

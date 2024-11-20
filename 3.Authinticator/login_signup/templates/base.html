@@ -25,6 +25,15 @@
 </head>
 
 <body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Authentication</a>
+            <form action="{% url 'logout' %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-outline-success">Logout</button>
+            </form>
+        </div>
+    </nav>
     {% block content %}
     {% endblock %}
 </body>

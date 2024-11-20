@@ -1,5 +1,3 @@
-<<<<<<< HEAD
 hi just check branching.
-=======
 this is correct i understand the.
->>>>>>> login_signup
+
